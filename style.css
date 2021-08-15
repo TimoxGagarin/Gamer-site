@@ -1,0 +1,502 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: Montserrat;
+	color:#140021;
+}
+
+p{
+    color: #140021;
+    font-size: 13px;
+}
+
+li{
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+
+ul{
+	margin-bottom: 6px;
+	margin-right: 11px;
+}
+
+.be-static{
+    position: static;
+}
+
+.vh-dependent{
+    height: 35vh;
+    display: flex;
+    align-items:center;
+}
+
+.header{
+    height: 80px;
+}
+
+.logo{
+    margin-top: 23px;
+    height: 43px;
+}
+
+.logo-image{
+    
+}
+
+.logo-text{
+	display: block;
+    margin-left: 13px;
+}
+
+.logo-title{
+    color: #7E02CB;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.logo-description{
+    height: 13px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-left: 62px;
+}
+
+.menu-el{
+    position: static;
+    font-size: 12px;
+    margin: 0 6px;
+}
+
+.more{
+    margin-top: 38px;
+    margin-left: 27px;
+    height: 4px;
+}
+
+.email{
+    color:#140021;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.get-work{
+    margin-top: 25px;
+    margin-left: 35px;
+    border: 1px solid #F09E00;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 30px;
+    width: 124px;
+    font-size: 11px;
+    color: #F09E00;
+    font-weight: bold;
+    background: transparent;
+}
+
+.account{
+    margin-top: 26px;
+    margin-left: 36px;
+    height: 30px;
+}
+
+.user-image{
+    margin-bottom: 5px;
+}
+
+.user-text{
+    display: block;
+    margin-left: 9px;
+}
+
+.user-name{
+    margin-bottom: 0;
+    font-size: 12px;
+	font-weight: bold;
+}
+
+.balance{
+    margin-top: 0;
+    height: 15px;
+}
+
+.settings{
+    height: 10px;
+    margin: auto;
+    margin-left: 9px;
+}
+
+.offer{
+    margin-top: 12px;
+	padding-bottom: 97px;
+}
+
+.news{
+    margin-top: 182px;
+}
+
+.news-title{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.news-description{
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+.check-games{
+    font-weight: bold;
+    font-size: 15px;
+    width: 270px;
+    height: 66px;
+    color: white;
+    background: #F09E00;
+    border: 1px solid #F09E00;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 6px 3px rgba(240, 158, 0, 0.48);
+}
+
+.foreground{
+	position: absolute;
+    left: -223px;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+}
+
+.pubg{
+	background: url(img/Rectangle%205.png) no-repeat right top / 80% 80%;
+    width: 50%;
+	height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 142px;
+}
+
+.pubg-key{
+	width: 170px;
+	margin: 50% 50%;
+}
+
+.pubg-key__title{
+	font-size: 15px;
+	color: white;
+	font-weight: 900;
+}
+
+.pubg-key__description{
+	font-size: 12px;
+	color: white;
+}
+
+.pubg-key__price{
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+}
+
+.finger{
+	position: absolute;
+	width: 25px;
+	margin-left: 167px;
+	margin-bottom: 50px;
+}
+
+.special-for-you{
+	margin-top: 97px;
+}
+
+.special-for-you__title-text{
+	font-weight: 900;
+	font-size: 25px;
+	width: 300px;
+	border-bottom: 1px solid #000000;
+}
+
+.special-for-you__title-row{
+	margin-bottom: 46px;
+}
+
+.special-for-you__row-offset{
+	margin-bottom: 30px;
+}
+
+.game-card{
+	background: white;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	height:168px;
+	width:370px;
+}
+
+.picture{
+	flex: 0 0 50%;
+    max-width: 50%
+}
+
+.picture-cyberpunk{
+	background: url(img/Cyberpunk-back.png) no-repeat right / 100% 100%;
+	height: 100%;
+	width: 80%;
+	position: relative;
+}
+
+.picture-gta{
+	background: url(img/Gta-back.png) no-repeat right / 100% 100%;
+	height: 100%;
+	width: 80%;
+	position: relative;
+}
+
+.picture-pubg{
+	background: url(img/Pubg-back.png) no-repeat right / 100% 100%;
+	height: 100%;
+	width: 80%;
+	position: relative;
+}
+
+.foreground-game{
+	height: 100%;
+	margin-left: 28px;
+}
+
+.game-info{
+	flex: 0 0 50%;
+    max-width: 50%;
+	padding-top: 17px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+}
+
+.game-info__title{
+	margin: auto;
+	font-weight: 900;
+	font-size: 17px;
+	margin-bottom: 6px;
+}
+
+.info-categories{
+	font-size: 12px;
+}
+
+.info-category{
+	color: #646986;
+	font-size: 12px;
+}
+
+.info-categories-values{
+	font-size: 12px;
+}
+
+.info-category-value{
+	color: #646986;
+	font-size: 12px;
+}
+
+.game-price{
+	margin-bottom: 10px;
+	font-size: 13px;
+	line-height: 200%;
+	font-weight: bold;
+}
+
+.game-footer{
+	margin-right: 12px;
+	justify-content: space-between;
+}
+
+.arrow{
+	width: 20px;
+	height: 17px;
+	margin-top: 5px;
+}
+
+.mb0{
+	margin-bottom: 0;
+}
+
+.special-for-you__menu{
+	margin-top: 52px;
+}
+
+.special-for-you__menu-button{
+	display: block;
+	margin: 0 52px;
+}
+
+.special-for-you__menu-button.active {
+	color:#140021;
+	border-bottom: 1px solid #7E02CB;
+}
+
+.special-for-you__menu-button{
+	color:#140021; 
+	border-bottom: 0px solid #7E02CB;
+}
+
+.special-for-you__menu-button:hover{
+	color:#140021;
+	text-decoration: none;
+}
+
+.catalog{
+	margin-top: 118px;
+}
+
+.catalog-title{
+	font-weight: 900;
+	font-size: 25px;
+	color:#140021; 
+	border-bottom: 1px solid #140021;
+	margin-bottom: 45px;
+}
+
+.catalog__row-offset{
+	margin-bottom: 41px;
+}
+
+.game-card-2{
+	width:270px;
+	height:340px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.catalog-img-size{
+	height: 134px;
+	width: 115px;
+	margin-bottom: 13px;
+}
+
+.game-info-2{
+	width: 100%;
+	padding-top: 17px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+}
+
+.feedback{
+	margin-top: 69px;
+}
+
+.feedback-title{
+	font-weight: 900;
+	font-size: 25px;
+	color:#140021; 
+	border-bottom: 1px solid #140021;
+	margin-bottom: 52px;
+}
+
+.feedback-comment{
+	
+}
+
+.avatar{
+	margin-right: 12px;
+	height: 72px;
+	width: 72px;
+}
+
+.feedback-comment__rect{
+	padding-left: 13px;
+	padding-top: 1px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.nick{
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.feedback-comment__text{
+	font-size: 12px;		
+}
+
+.feedback__row-offset1{
+	margin-bottom: 33px;
+}
+
+.feedback__row-offset2{
+	margin-bottom: 33px;
+}
+
+.violet{
+	font-size: 50px;
+	line-height: 200%;
+	margin-right: 16px;
+	font-weight: 900;
+	color: #7E02CB;
+}
+
+.feedback-info{
+	line-height: 200%;
+	font-size: 13px;
+	height: 26px;
+	margin: auto 0;
+}
+
+.footer{
+	color: white !important;
+	background: #140027;
+	padding: 270px 215px;
+}
+
+.get-work-2{
+	margin-top: 25px;
+    margin-left: 35px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 30px;
+    width: 124px;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    background: transparent;
+}
+
+.logo-title-2{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.logo-description-2{
+    height: 13px;
+	color:white;
+}
+
+.menu-el-2{
+    position: static;
+    font-size: 12px;
+    margin: 0 6px;
+	color: white;
+}
+
+.email-2{
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 32px;
+    margin-left: 50px;
+}
+
+.to-start{
+	margin: auto 0;
+	margin-left: 61px;
+	height: 27px;
+	width:21px;
+}
