@@ -469,10 +469,9 @@ ul{
 .footer{
 	color: white !important;
 	background: #140027;
+	padding: 0 auto;
 	padding-top: 135px;
-	padding-left: 215px;
 	padding-bottom: 135px;
-	padding-right: 269px;
 }
 
 .get-work-2{
@@ -526,16 +525,14 @@ ul{
 }
 
 .more-2{
-    margin-top: 38px;
-    margin-left: 27px;
     height: 4px;
 }
 
 .to-start{
-	margin: auto 0;
-	margin-left: 61px;
 	height: 27px;
 	width:21px;
+	margin: auto;
+	margin-left: 61px;
 	cursor:pointer;
 }
 
@@ -629,7 +626,7 @@ ul{
 		margin: 0 20px;
 	}
 	.offer{
-		height:735px;
+		height:785px;
 	}
 	.foreground{
 		height: 250px;
@@ -648,8 +645,7 @@ ul{
 		width:213px;
 		height:138px;
 		margin: auto;
-		margin-Top:250px;
-		display: block;
+		margin-Top:300px;
 	}
 	
 	.footer{
@@ -661,6 +657,9 @@ ul{
 }
 
 @media screen and (max-width: 576px){
+	.offer{
+		height: 785px;
+	}
 	.special-for-you__menu-button{
 		font-size: 12px;
 		margin: 0 auto;
@@ -678,20 +677,30 @@ ul{
 	}
 	
 	.email-2{
+		width: 158px;
+		margin: 0 auto;
 		margin-top: 22px;
-		margin-left: 0;
-		text-align: center;
 	}
 	
 	.get-work-2{
-		margin-left: 33%;
+		position: relative;
+		display: block;
+		margin: 0 auto;
 		margin-top: 50px;
 		margin-bottom: 52px;
 	}
 	
+	.menu-2-and-more-2{
+		width: 258px;
+		margin: 0 auto;
+		margin-top: 32px;
+	}
+	
 	.to-start{
+		position: relative;
 		width: 21px;
 		height: 26.5px;
-		right: 45%;
+		margin: 0 auto;
+		top: 175px;
 	}
 }
