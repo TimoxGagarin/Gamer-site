@@ -3,10 +3,10 @@
 	padding: 0;
     font-family: Montserrat;
 	color:#140021;
+	white-space: nowrap;
 }
 
 p{
-    color: #140021;
     font-size: 13px;
 }
 
@@ -23,16 +23,12 @@ ul{
 .be-static{
     position: static;
 }
-
-.vh-dependent{
-    height: 35vh;
-    display: flex;
-    align-items:center;
+.p-relative{
+	position: relative;
 }
 
 .header{
     height: 80px;
-	margin-bottom: 182px;
 }
 
 .logo{
@@ -45,9 +41,7 @@ ul{
 }
 
 .logo-text{
-	display: block;
     margin-left: 13px;
-	white-space: nowrap;
 }
 
 .logo-title{
@@ -58,13 +52,10 @@ ul{
 }
 
 .logo-description{
-    height: 13px;
+    
 }
 
 .menu{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     margin-top: 32px;
     margin-left: 62px;
 }
@@ -82,9 +73,7 @@ ul{
 }
 
 .email{
-    color:#140021;
     font-weight: bold;
-    font-size: 13px;
     margin-top: 32px;
     margin-left: 50px;
 }
@@ -100,8 +89,7 @@ ul{
     font-size: 11px;
     color: #F09E00;
     font-weight: bold;
-    background: transparent;
-	white-space: nowrap;
+	background-color: transparent;
 }
 
 .account{
@@ -115,7 +103,6 @@ ul{
 }
 
 .user-text{
-    display: block;
     margin-left: 9px;
 }
 
@@ -128,7 +115,6 @@ ul{
 .balance{
     margin-top: 0;
     height: 15px;
-	white-space: nowrap;
 }
 
 .settings{
@@ -137,20 +123,18 @@ ul{
     margin-left: 9px;
 }
 
+
 .ham-menu{
 	width: 27px;
 	height: 20px;
-	margin: 0;
-	display: none;
+	margin: auto;
+	margin-left: 20px;
 }
+
 
 .offer{
-    margin-top: 12px;
-	height: 557px;
-}
-
-.d-block{
-	display: flex !important;
+	margin-top:182px;
+	height: 200%;
 }
 
 .news{
@@ -185,8 +169,6 @@ ul{
     left: -223px;
     width: 456px;
 	height: 557px;
-    display: flex;
-    justify-content: left;
 	bottom: 0 !important;
 }
 
@@ -194,12 +176,12 @@ ul{
 	background: url(img/Rectangle%205.png) no-repeat right / 100% 100%;
     width: 552px;
 	height: 447px;
-    position: absolute;
-    right: 0px;
-	margin-top: 0px !important;
+	top: 0%;
+	background-size:cover;
 }
 
 .pubg-key{
+	position: absolute;
 	width: 175px;
 	height: 75px;
 	margin-left: 223px;
@@ -239,7 +221,7 @@ ul{
 	margin-top: 97px;
 	font-weight: 900;
 	font-size: 25px;
-	width: 300px;
+	white-space: nowrap;
 	border-bottom: 1px solid #000000;
 }
 
@@ -303,6 +285,7 @@ ul{
 	font-weight: 900;
 	font-size: 17px;
 	margin-bottom: 6px;
+	white-space: nowrap;
 }
 
 .info-categories{
@@ -343,10 +326,6 @@ ul{
 	margin-top: 5px;
 }
 
-.mb0{
-	margin-bottom: 0;
-}
-
 .special-for-you__menu{
 	margin-top: 52px;
 }
@@ -372,10 +351,11 @@ ul{
 }
 
 .catalog{
-	margin-top: 118px;
+	
 }
 
 .catalog-title{
+	margin-top: 118px;
 	font-weight: 900;
 	font-size: 25px;
 	color:#140021; 
@@ -392,7 +372,8 @@ ul{
 	height:340px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
-	margin-bottom: 41px;
+	margin: auto 0;
+	margin-top: 0;
 }
 
 .catalog-img-size{
@@ -444,7 +425,8 @@ ul{
 }
 
 .feedback-comment__text{
-	font-size: 12px;		
+	font-size: 12px;
+	white-space: normal;
 }
 
 .violet{
@@ -462,8 +444,8 @@ ul{
 	margin: auto 0;
 }
 
-.feedback .nav .container .row.d-block.d-md-flex.justify-content-left{
-	margin-bottom: 88px;	
+.feedback .nav .container .d-xs-block.d-lg-flex{
+	margin-bottom: 88px;
 }
 
 .footer{
@@ -486,7 +468,6 @@ ul{
     color: white;
     font-weight: bold;
     background: transparent;
-	white-space: nowrap;
 }
 
 .logo-title-2{
@@ -517,9 +498,6 @@ ul{
 }
 
 .menu-2{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     margin-top: 32px;
     margin-left: 62px;
 }
@@ -537,54 +515,23 @@ ul{
 }
 
 @media screen and (max-width: 992px){
-	.col-lg-0{
-		width: 0;
-	}
 	.header{
 		margin-bottom: 115px;
 	}
-	.d-block{
-		display: block !important;
-	}
-	.offer{
-		height:835px;
-	}
 	.pubg{
-		width: 100%;
+		width: 100% !important;
 		margin-top: 121px !important;
 	}
 	.foreground{
 		left: 0;
 	}
 	.pubg-key{
-		position: absolute;
 		width:213px;
 		height:138px;
 		margin-left: 486px;
 		margin-Top:257px;
 	}
 	
-	.menu{
-		display: none;
-		width: 0;
-		height: 0;
-		margin: 0;
-		padding: 0;
-	}
-	.more{
-		display: none;
-		width: 0;
-		height: 0;
-		margin: 0;
-		padding: 0;
-	}
-	.ham-menu{
-		display: block;
-		width: 27px;
-		height: 20px;
-		margin: auto;
-		margin-left: 20px;
-	}
 	.feedback-comment{
 		margin-bottom: 46px;
 	}
@@ -619,14 +566,25 @@ ul{
 }
 
 @media screen and (max-width: 768px){
-	.get-work{
-		display: none;
+	.feedback-title{
+		margin-top: 46px;
 	}
 	.special-for-you__menu-button{
 		margin: 0 20px;
 	}
-	.offer{
-		height:785px;
+	.game-info__title{
+		font-size: 14px;
+	}
+	.game-card{
+		width: 288px;
+		height: 131px;
+	}
+	.game-price{
+		font-size: 14px;
+	}
+	.game-info .d-flex ul li{
+		font-size: 10px;
+		margin-bottom: 0;
 	}
 	.foreground{
 		height: 250px;
@@ -636,9 +594,7 @@ ul{
 	}
 
 	.pubg{
-		display: flex;
-		justify-content: center;
-		height: 450px !important;
+		height: 450px;
 	}
 	
 	.pubg-key{
@@ -657,8 +613,18 @@ ul{
 }
 
 @media screen and (max-width: 576px){
+	.catalog-title{
+		margin-top: 49px;
+	}
+	.news-title {
+		font-size: 25px;
+	}
+	.news-description{
+		font-size: 13px;
+	}
+	
 	.offer{
-		height: 785px;
+		margin-top: 85px;
 	}
 	.special-for-you__menu-button{
 		font-size: 12px;
