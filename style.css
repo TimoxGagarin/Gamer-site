@@ -47,6 +47,7 @@ ul{
 .logo-text{
 	display: block;
     margin-left: 13px;
+	white-space: nowrap;
 }
 
 .logo-title{
@@ -100,6 +101,7 @@ ul{
     color: #F09E00;
     font-weight: bold;
     background: transparent;
+	white-space: nowrap;
 }
 
 .account{
@@ -126,6 +128,7 @@ ul{
 .balance{
     margin-top: 0;
     height: 15px;
+	white-space: nowrap;
 }
 
 .settings{
@@ -143,8 +146,7 @@ ul{
 
 .offer{
     margin-top: 12px;
-	margin-bottom: 97px;
-	height: 100%;
+	height: 557px;
 }
 
 .d-block{
@@ -310,10 +312,12 @@ ul{
 .info-category{
 	color: #646986;
 	font-size: 12px;
+	white-space: nowrap;
 }
 
 .info-categories-values{
 	font-size: 12px;
+	white-space: nowrap;
 }
 
 .info-category-value{
@@ -458,10 +462,17 @@ ul{
 	margin: auto 0;
 }
 
+.feedback .nav .container .row.d-block.d-md-flex.justify-content-left{
+	margin-bottom: 88px;	
+}
+
 .footer{
 	color: white !important;
 	background: #140027;
-	padding: 270px 135px;
+	padding-top: 135px;
+	padding-left: 215px;
+	padding-bottom: 135px;
+	padding-right: 269px;
 }
 
 .get-work-2{
@@ -476,6 +487,7 @@ ul{
     color: white;
     font-weight: bold;
     background: transparent;
+	white-space: nowrap;
 }
 
 .logo-title-2{
@@ -649,6 +661,10 @@ ul{
 }
 
 @media screen and (max-width: 576px){
+	.special-for-you__menu-button{
+		font-size: 12px;
+		margin: 0 auto;
+	}
 	.footer{
 		padding-top: 58px;
 		padding-left: 18px;
