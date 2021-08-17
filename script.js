@@ -3,4 +3,6 @@ $(function () {
         e.preventDefault();
         $(this).addClass('active').siblings().removeClass('active');
     });
+	
+	
 });

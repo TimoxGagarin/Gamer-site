@@ -32,6 +32,7 @@ ul{
 
 .header{
     height: 80px;
+	margin-bottom: 182px;
 }
 
 .logo{
@@ -133,13 +134,25 @@ ul{
     margin-left: 9px;
 }
 
+.ham-menu{
+	width: 27px;
+	height: 20px;
+	margin: 0;
+	display: none;
+}
+
 .offer{
     margin-top: 12px;
-	padding-bottom: 97px;
+	margin-bottom: 97px;
+	height: 100%;
+}
+
+.d-block{
+	display: flex !important;
 }
 
 .news{
-    margin-top: 182px;
+    
 }
 
 .news-title{
@@ -168,25 +181,27 @@ ul{
 .foreground{
 	position: absolute;
     left: -223px;
-    top: 0;
-    width: 80%;
-    height: 80%;
+    width: 456px;
+	height: 557px;
     display: flex;
     justify-content: left;
+	bottom: 0 !important;
 }
 
 .pubg{
-	background: url(img/Rectangle%205.png) no-repeat right top / 80% 80%;
-    width: 50%;
-	height: 100%;
+	background: url(img/Rectangle%205.png) no-repeat right / 100% 100%;
+    width: 552px;
+	height: 447px;
     position: absolute;
     right: 0px;
-    top: 142px;
+	margin-top: 0px !important;
 }
 
 .pubg-key{
-	width: 170px;
-	margin: 50% 50%;
+	width: 175px;
+	height: 75px;
+	margin-left: 223px;
+	margin-top: 271px;
 }
 
 .pubg-key__title{
@@ -204,6 +219,7 @@ ul{
 	font-size: 13px;
 	color: white;
 	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .finger{
@@ -214,10 +230,11 @@ ul{
 }
 
 .special-for-you{
-	margin-top: 97px;
+	
 }
 
 .special-for-you__title-text{
+	margin-top: 97px;
 	font-weight: 900;
 	font-size: 25px;
 	width: 300px;
@@ -371,6 +388,7 @@ ul{
 	height:340px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
+	margin-bottom: 41px;
 }
 
 .catalog-img-size{
@@ -387,10 +405,11 @@ ul{
 }
 
 .feedback{
-	margin-top: 69px;
+	
 }
 
 .feedback-title{
+	margin-top: 69px;
 	font-weight: 900;
 	font-size: 25px;
 	color:#140021; 
@@ -399,7 +418,7 @@ ul{
 }
 
 .feedback-comment{
-	
+	margin-bottom: 46px;
 }
 
 .avatar{
@@ -424,14 +443,6 @@ ul{
 	font-size: 12px;		
 }
 
-.feedback__row-offset1{
-	margin-bottom: 33px;
-}
-
-.feedback__row-offset2{
-	margin-bottom: 33px;
-}
-
 .violet{
 	font-size: 50px;
 	line-height: 200%;
@@ -450,17 +461,17 @@ ul{
 .footer{
 	color: white !important;
 	background: #140027;
-	padding: 270px 215px;
+	padding: 270px 135px;
 }
 
 .get-work-2{
-	margin-top: 25px;
+    height: 30px;
+    width: 124px;
+	margin: auto;
     margin-left: 35px;
     border: 1px solid white;
     box-sizing: border-box;
     border-radius: 5px;
-    height: 30px;
-    width: 124px;
     font-size: 11px;
     color: white;
     font-weight: bold;
@@ -494,9 +505,177 @@ ul{
     margin-left: 50px;
 }
 
+.menu-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-left: 62px;
+}
+
+.more-2{
+    margin-top: 38px;
+    margin-left: 27px;
+    height: 4px;
+}
+
 .to-start{
 	margin: auto 0;
 	margin-left: 61px;
 	height: 27px;
 	width:21px;
+	cursor:pointer;
+}
+
+@media screen and (max-width: 992px){
+	.col-lg-0{
+		width: 0;
+	}
+	.header{
+		margin-bottom: 115px;
+	}
+	.d-block{
+		display: block !important;
+	}
+	.offer{
+		height:835px;
+	}
+	.pubg{
+		width: 100%;
+		margin-top: 121px !important;
+	}
+	.foreground{
+		left: 0;
+	}
+	.pubg-key{
+		position: absolute;
+		width:213px;
+		height:138px;
+		margin-left: 486px;
+		margin-Top:257px;
+	}
+	
+	.menu{
+		display: none;
+		width: 0;
+		height: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.more{
+		display: none;
+		width: 0;
+		height: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.ham-menu{
+		display: block;
+		width: 27px;
+		height: 20px;
+		margin: auto;
+		margin-left: 20px;
+	}
+	.feedback-comment{
+		margin-bottom: 46px;
+	}
+	.feedback-title{
+		margin-top: 46px;
+		margin-bottom: 46px;
+	}
+	.catalog-title{
+		margin-top: 42px;
+		margin-bottom: 46px;
+	}
+	.menu-2{
+		margin-left: 0;
+	}
+	
+	.email-2{
+		margin-top: 22px;
+		margin-left: 0;
+	}
+	
+	.get-work-2{
+		margin-left: 0;
+		margin-top: 61px;
+	}
+	
+	.to-start{
+		margin: 0;
+		position: absolute;
+		right: 0;
+		bottom:0;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.get-work{
+		display: none;
+	}
+	.special-for-you__menu-button{
+		margin: 0 20px;
+	}
+	.offer{
+		height:735px;
+	}
+	.foreground{
+		height: 250px;
+		width: 200px;
+		top: 0;
+		margin-left: 25%;
+	}
+
+	.pubg{
+		display: flex;
+		justify-content: center;
+		height: 450px !important;
+	}
+	
+	.pubg-key{
+		width:213px;
+		height:138px;
+		margin: auto;
+		margin-Top:250px;
+		display: block;
+	}
+	
+	.footer{
+		padding-top: 60px;
+		padding-left: 61px;
+		padding-bottom: 54px;
+		padding-right: 38px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.footer{
+		padding-top: 58px;
+		padding-left: 18px;
+		padding-bottom: 24px;
+		padding-right: 12px;
+	}
+	.logo{
+		width: 239px;
+		height: 40px;
+		margin: 0 auto;
+	}
+	
+	.email-2{
+		margin-top: 22px;
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	.get-work-2{
+		margin-left: 33%;
+		margin-top: 50px;
+		margin-bottom: 52px;
+	}
+	
+	.to-start{
+		width: 21px;
+		height: 26.5px;
+		right: 45%;
+	}
 }
