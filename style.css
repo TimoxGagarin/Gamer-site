@@ -20,13 +20,6 @@ ul{
 	margin-right: 11px;
 }
 
-.be-static{
-    position: static;
-}
-.p-relative{
-	position: relative;
-}
-
 .header{
     height: 80px;
 }
@@ -55,35 +48,31 @@ ul{
     
 }
 
-.menu{
-    margin-top: 32px;
-    margin-left: 62px;
-}
-
 .menu-el{
     position: static;
     font-size: 12px;
     margin: 0 6px;
 }
 
+.menu{
+    margin-top: 32px;
+}
+
 .more{
-    margin-top: 38px;
-    margin-left: 27px;
     height: 4px;
 }
 
 .email{
     font-weight: bold;
     margin-top: 32px;
-    margin-left: 50px;
 }
 
 .get-work{
     margin-top: 25px;
-    margin-left: 35px;
     border: 1px solid #F09E00;
     box-sizing: border-box;
     border-radius: 5px;
+	padding: 8px 13px;
     height: 30px;
     width: 124px;
     font-size: 11px;
@@ -94,7 +83,6 @@ ul{
 
 .account{
     margin-top: 26px;
-    margin-left: 36px;
     height: 30px;
 }
 
@@ -127,18 +115,17 @@ ul{
 .ham-menu{
 	width: 27px;
 	height: 20px;
-	margin: auto;
-	margin-left: 20px;
+	margin-top: 30px;
+	right: 0;
 }
-
 
 .offer{
 	margin-top:182px;
-	height: 200%;
+	height: 557px;
 }
 
 .news{
-    
+    left: 0;
 }
 
 .news-title{
@@ -176,8 +163,7 @@ ul{
 	background: url(img/Rectangle%205.png) no-repeat right / 100% 100%;
     width: 552px;
 	height: 447px;
-	top: 0%;
-	background-size:cover;
+    right: 0px;
 }
 
 .pubg-key{
@@ -457,8 +443,10 @@ ul{
 }
 
 .get-work-2{
-    height: 30px;
-    width: 124px;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 	margin: auto;
     margin-left: 35px;
     border: 1px solid white;
@@ -468,6 +456,11 @@ ul{
     color: white;
     font-weight: bold;
     background: transparent;
+}
+
+.logo-2{
+    margin-top: 23px;
+    height: 43px;
 }
 
 .logo-title-2{
@@ -514,7 +507,13 @@ ul{
 	cursor:pointer;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
+	.logo{
+		margin-right: 0;
+	}
+	.offer{
+		height: 835px;
+	}
 	.header{
 		margin-bottom: 115px;
 	}
@@ -565,8 +564,24 @@ ul{
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+	.user-image{
+		height: 25px;
+		width: 25px;
+	}
+	.email{
+		margin-left: 0;
+		height: 56px;
+		top: 100%;
+
+	}
+	.offer{
+		height: 735px;
+	}
 	.feedback-title{
+		margin-top: 46px;
+	}
+	.special-for-you__title{
 		margin-top: 46px;
 	}
 	.special-for-you__menu-button{
@@ -612,7 +627,11 @@ ul{
 	}
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 575px){
+	.ham-menu{
+		margin-left: 0;
+		right: auto;
+	}
 	.catalog-title{
 		margin-top: 49px;
 	}
@@ -625,6 +644,7 @@ ul{
 	
 	.offer{
 		margin-top: 85px;
+		
 	}
 	.special-for-you__menu-button{
 		font-size: 12px;
@@ -632,11 +652,11 @@ ul{
 	}
 	.footer{
 		padding-top: 58px;
-		padding-left: 18px;
+		padding-left: 0;
 		padding-bottom: 24px;
-		padding-right: 12px;
+		padding-right: 0;
 	}
-	.logo{
+	.logo-2{
 		width: 239px;
 		height: 40px;
 		margin: 0 auto;
