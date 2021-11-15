@@ -20,6 +20,15 @@ ul{
 	margin-right: 11px;
 }
 
+button:focus{
+	outline: none;
+}
+
+button:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
 .header{
     height: 80px;
 }
@@ -52,6 +61,7 @@ ul{
     position: static;
     font-size: 12px;
     margin: 0 6px;
+	cursor: pointer;
 }
 
 .menu{
@@ -60,6 +70,7 @@ ul{
 
 .more{
     height: 4px;
+	cursor: pointer;
 }
 
 .email{
@@ -68,13 +79,16 @@ ul{
 }
 
 .get-work{
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-top: 8px;
+	padding-bottom: 1px;
+	
     margin-top: 25px;
     border: 1px solid #F09E00;
-    box-sizing: border-box;
+	line-height: 20px;
+
     border-radius: 5px;
-	padding: 8px 13px;
-    height: 30px;
-    width: 124px;
     font-size: 11px;
     color: #F09E00;
     font-weight: bold;
@@ -109,6 +123,7 @@ ul{
     height: 10px;
     margin: auto;
     margin-left: 9px;
+	cursor: pointer;
 }
 
 
@@ -117,6 +132,7 @@ ul{
 	height: 20px;
 	margin-top: 30px;
 	right: 0;
+	cursor: pointer;
 }
 
 .offer{
@@ -310,6 +326,7 @@ ul{
 	width: 20px;
 	height: 17px;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 .special-for-you__menu{
@@ -480,6 +497,7 @@ ul{
     font-size: 12px;
     margin: 0 6px;
 	color: white;
+	cursor: pointer;
 }
 
 .email-2{
@@ -497,9 +515,12 @@ ul{
 
 .more-2{
     height: 4px;
+	cursor: pointer;
 }
 
 .to-start{
+	border: none;
+	background: transparent;
 	height: 27px;
 	width:21px;
 	margin: auto;
